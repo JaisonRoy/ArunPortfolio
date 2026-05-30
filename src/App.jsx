@@ -63,7 +63,7 @@ export default function App() {
 
       {/* ── NAVBAR ── */}
       <nav className={`navbar${scrolled ? ' scrolled' : ''}`}>
-        <a href="#home" className="nav-logo">ASB<span className="dot">.</span></a>
+        <a href="#home" className="nav-logo">Arun S Babu<span className="dot">.</span></a>
         <ul className={`nav-links${menuOpen ? ' open' : ''}`}>
           {navLinks.map(n => (
             <li key={n}>
@@ -304,7 +304,7 @@ export default function App() {
 
       {/* ── FOOTER ── */}
       <footer className="footer">
-        <div className="footer-logo">ASB<span className="dot">.</span></div>
+        <div className="footer-logo">Arun S Babu<span className="dot">.</span></div>
         <div className="footer-copy">© {new Date().getFullYear()} Arun S Babu. All rights reserved.</div>
         <div className="footer-tagline">Designed with ♥ in Kerala</div>
       </footer>
