@@ -54,7 +54,7 @@ export default function App() {
     return () => obs.disconnect();
   }, []);
 
-  const navLinks = ['Home','About','Skills','Work','Experience','Contact'];
+  const navLinks = ['Home', 'About', 'Skills', 'Work', 'Experience', 'Contact'];
 
   return (
     <>
@@ -102,11 +102,11 @@ export default function App() {
           </div>
           <div className="stats-row">
             {[
-              ['3+','Years Experience'],
-              ['20+','Projects Delivered'],
-              ['7+','Industry Verticals'],
-              ['100%','User-Centric'],
-            ].map(([v,l]) => (
+              ['3+', 'Years Experience'],
+              ['35+', 'Projects Delivered'],
+              ['7+', 'Industry Verticals'],
+              ['100%', 'User-Centric'],
+            ].map(([v, l]) => (
               <div className="stat" key={l}>
                 <div className="stat-value">{v}</div>
                 <div className="stat-label">{l}</div>
@@ -135,7 +135,7 @@ export default function App() {
                 environments where design and development move in lockstep.
               </p>
               <div className="about-pills">
-                {['Figma','Auto Layout','Design Systems','Prototyping'].map(t => (
+                {['Figma', 'Auto Layout', 'Design Systems', 'Prototyping'].map(t => (
                   <span className="pill" key={t}>{t}</span>
                 ))}
               </div>
@@ -282,7 +282,7 @@ export default function App() {
         <Reveal>
           <p className="section-label">Let's Talk</p>
           <h2 className="section-title">Ready to build something great?</h2>
-          <p className="section-subtitle" style={{ margin:'0 auto 0' }}>
+          <p className="section-subtitle" style={{ margin: '0 auto 0' }}>
             I'm always excited to collaborate on meaningful projects. Whether you need a full product design, a design system overhaul, or just want to chat about UX — let's connect.
           </p>
           <div className="contact-buttons">
@@ -290,7 +290,7 @@ export default function App() {
               Say Hello →
             </a>
             <a
-              href="https://linkedin.com/in/arun-s-babu"
+              href="https://www.linkedin.com/in/arun-s-babu-20b1881ba/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-ghost"
@@ -298,7 +298,7 @@ export default function App() {
               LinkedIn Profile
             </a>
           </div>
-          <p className="contact-phone">📞 +91 7306595005</p>
+          <p className="contact-phone">✉️ arunsbabu.job@gmail.com &nbsp;|&nbsp; ✉️ arunworkmail25@gmail.com</p>
         </Reveal>
       </section>
 
